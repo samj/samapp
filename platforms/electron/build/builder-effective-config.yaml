@@ -1,0 +1,19 @@
+directories:
+  output: /Volumes/SSD/Development/cordova/samapp/platforms/electron/build
+  buildResources: /Volumes/SSD/Development/cordova/samapp/platforms/electron/build-res
+  app: /Volumes/SSD/Development/cordova/samapp/platforms/electron/www
+appId: net.samj.samapp
+productName: SamApp
+electronVersion: 4.0.1
+electronDownload:
+  version: 4.0.1
+mac:
+  type: distribution
+  icon: installer.png
+  target:
+    - target: dmg
+      arch:
+        - x64
+    - target: zip
+      arch:
+        - x64
